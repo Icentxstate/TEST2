@@ -13,7 +13,7 @@ st.title("📍 نمایش محدوده و نقاط روی نقشه")
 # ---------- بارگذاری داده‌ها ---------- #
 try:
     # شیپ‌فایل حوضه آبریز
-    gdf = gpd.read_file("data/watershed.shp")
+    gdf = gpd.read_file("watershed.shp")
 
     # CSV نقاط
     df = pd.read_csv("water_points.csv")
