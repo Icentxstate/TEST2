@@ -16,7 +16,7 @@ try:
     gdf = gpd.read_file("data/watershed.shp")
 
     # CSV نقاط
-    df = pd.read_csv("data/water_points.csv")
+    df = pd.read_csv("water_points.csv")
     df = df.dropna(subset=["Latitude", "Longitude"])
 
     # ---------- ساخت نقشه ---------- #
